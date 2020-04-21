@@ -8,8 +8,8 @@
  * 페이지 수를 계산해서 출력하는 코드를 구현하시오.
  */
 
-let studentCount = 31 
-let pageSize = 10 
+let studentCount = 31
+let pageSize = 10
 
-let pageCount = Math.ceil(studentCount / pageSize) 
+let pageCount = Math.ceil(studentCount / pageSize)
 console.log(pageCount)

@@ -1,4 +1,4 @@
-let s = "123.456" 
+let s = "123.456"
 
 let a = parseInt(s)
 

@@ -1,4 +1,4 @@
-let person = { name: "홍길동", age: 16 };
+let person = {name: "홍길동", age: 16};
 
 person[2] = "김지혜";
 
@@ -24,6 +24,6 @@ console.log(person);
 console.log(person[0]);
 
 /**
- * { '0': '호형호제', '1': '도술', name: '홍길동', age: 16 } 
+ * { '0': '호형호제', '1': '도술', name: '홍길동', age: 16 }
  * 호형호제
  */

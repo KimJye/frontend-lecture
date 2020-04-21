@@ -8,13 +8,13 @@
 
 const array = []
 
-for(let i=0; i<100; ++i){
+for (let i = 0; i < 100; ++i) {
     const num = Math.floor(Math.random() * 100) + 1
     array.push(num)
 }
 
-const result = array.filter(n =>{
-    return n % 2 !=0
+const result = array.filter(n => {
+    return n % 2 != 0
 });
 
 console.log(result)

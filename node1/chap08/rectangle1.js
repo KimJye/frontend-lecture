@@ -1,15 +1,17 @@
-class Rectangle { 
-    constructor(w, h) { 
-        this.width = w; 
-        this.height = h; 
-    } 
-    
-    area() { return this.width * this.height; } 
-} 
+class Rectangle {
+    constructor(w, h) {
+        this.width = w;
+        this.height = h;
+    }
 
-let rectangle = new Rectangle(10, 15); 
+    area() {
+        return this.width * this.height;
+    }
+}
 
-console.log(rectangle); 
+let rectangle = new Rectangle(10, 15);
+
+console.log(rectangle);
 console.log(rectangle.area());
 
 /**

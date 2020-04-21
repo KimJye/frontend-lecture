@@ -6,13 +6,15 @@
  * (4) 배열을 출력한다.
  */
 
- const array = []
+const array = []
 
- for(let i=0; i<100; ++i){
-     const num = Math.floor(Math.random() * 100) + 1
-     array.push(num)
- }
+for (let i = 0; i < 100; ++i) {
+    const num = Math.floor(Math.random() * 100) + 1
+    array.push(num)
+}
 
- array.sort((a,b)=>{ return a-b })
+array.sort((a, b) => {
+    return a - b
+})
 
- console.log(array)
+console.log(array)

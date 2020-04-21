@@ -1,7 +1,7 @@
-let person = { name: "홍길동", age: 16, department: "소프" }; 
+let person = {name: "홍길동", age: 16, department: "소프"};
 
-console.log(person); 
+console.log(person);
 
-delete person.department; 
+delete person.department;
 
 console.log(person);

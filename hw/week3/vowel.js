@@ -6,7 +6,7 @@
 const str = "When I find myself in times of trouble Mother Mary comes to me Speaking words of wisdom, let it be.";
 
 for (let i = 0; i < str.length; ++i) {
-     const alpha = str.charAt(i);
-     const regx = /[aeiou]/ig;
-     if(regx.test(alpha)) console.log(i);
+    const alpha = str.charAt(i);
+    const regx = /[aeiou]/ig;
+    if (regx.test(alpha)) console.log(i);
 }

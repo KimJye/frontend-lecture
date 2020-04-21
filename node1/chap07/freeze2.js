@@ -1,7 +1,7 @@
-let person = { name: "홍길동", age: 16 }; 
+let person = {name: "홍길동", age: 16};
 
-console.log(Object.isFrozen(person)); 
+console.log(Object.isFrozen(person));
 
-Object.freeze(person); 
+Object.freeze(person);
 
 console.log(Object.isFrozen(person));

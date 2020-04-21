@@ -1,1 +1,3 @@
-(function (msg) { console.log(msg) })("hello");
+(function (msg) {
+    console.log(msg)
+})("hello");

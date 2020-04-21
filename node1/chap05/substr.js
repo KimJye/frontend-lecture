@@ -1,4 +1,4 @@
-let s = "abcdefgh"; 
+let s = "abcdefgh";
 
 console.log(s.substr(2, 2)); // cd
 console.log(s.substr(2)); // cdefgh

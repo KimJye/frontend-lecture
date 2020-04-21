@@ -1,7 +1,7 @@
 let a = 3
-console.log(typeof a == "number") 
+console.log(typeof a == "number")
 
-a = "hello" 
+a = "hello"
 console.log(typeof a == "string")
 
 a = true

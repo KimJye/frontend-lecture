@@ -6,10 +6,10 @@
  * persons 배열을 출력한다.
  */
 
- const persons = [];
+const persons = [];
 
- for(let i=0; i<10; ++i){
-     persons.push({ name: "홍길동", age: 16 + i });
- }
- 
- console.log(persons);
+for (let i = 0; i < 10; ++i) {
+    persons.push({name: "홍길동", age: 16 + i});
+}
+
+console.log(persons);

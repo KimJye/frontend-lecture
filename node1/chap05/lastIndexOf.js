@@ -1,4 +1,4 @@
-let s = "one two one two"; 
+let s = "one two one two";
 
 console.log(s.lastIndexOf("two")); // 12
 console.log(s.lastIndexOf("two", 11)); //4

@@ -1,7 +1,7 @@
-function factory() { 
-    return function (msg) { 
+function factory() {
+    return function (msg) {
         console.log(msg)
     }
-} 
+}
 
 factory()("hello")
