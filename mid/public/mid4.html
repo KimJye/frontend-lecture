@@ -14,33 +14,34 @@
         }
 
         div.result {
+            margin-top: 20px;
             font-size: large;
             font-weight: bold;
+        }
+
+        div.남자 {
+            background-color: #d7e5fa;
+        }
+
+        div.여자 {
+            background-color: #fce8e6;
         }
     </style>
 </head>
 
 <body>
-    <div id="app"> 
+    <div id="app" v-bind:class="picked"> 
         <div>
-            <input type="radio" id="man" value="남자" v-model="picked">
-            <label for="남자">남자</label>
-            <br>
-            <input type="radio" id="female" value="여자" v-model="picked">
-            <label for="여자">여자</label>
-            <br>
-            <span>선택: {{ picked }}</span>
-            <!-- <input type="radio" value="남자" v-model="picked" />
-            <label for="남자">남자</label>
-            <input type="radio" value="여자" v-model="picked" />
-            <label for="여자">여자</label> -->
+            <label> <input type="radio" value="남자" v-model="picked" /> 남자 </label>
+            <label> <input type="radio" value="여자" v-model="picked" /> 여자 </label>
         </div>
+        <div class="result" v-show="picked">{{picked}}</div>
     </div>
     <script type="text/javascript">
         var app = new Vue({
             el: '#app',
             data: {
-               
+               picked: ''
             }
         }) 
     </script>
