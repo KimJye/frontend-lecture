@@ -1,0 +1,26 @@
+[debug] [2020-05-06T01:17:16.260Z] ----------------------------------------------------------------------
+[debug] [2020-05-06T01:17:16.263Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kimjye\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2020-05-06T01:17:16.263Z] CLI Version:   8.2.0
+[debug] [2020-05-06T01:17:16.263Z] Platform:      win32
+[debug] [2020-05-06T01:17:16.263Z] Node Version:  v12.14.1
+[debug] [2020-05-06T01:17:16.277Z] Time:          Wed May 06 2020 10:17:16 GMT+0900 (GMT+09:00)
+[debug] [2020-05-06T01:17:16.277Z] ----------------------------------------------------------------------
+[debug] [2020-05-06T01:17:16.277Z] 
+[debug] [2020-05-06T01:17:16.287Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-06T01:17:16.288Z] > authorizing via signed-in user
+[debug] [2020-05-06T01:17:16.288Z] [iam] checking project skhu-lecture-kimjye for permissions ["firebase.projects.get"]
+[debug] [2020-05-06T01:17:16.293Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-06T01:17:16.294Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-05-06T01:17:16.685Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 May 2020 01:17:17 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-06T01:17:16.691Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/skhu-lecture-kimjye:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-06T01:17:17.918Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 May 2020 01:17:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=954","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-06T01:17:17.919Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/skhu-lecture-kimjye  
+ 
+[debug] [2020-05-06T01:17:18.443Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 May 2020 01:17:19 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-06T01:17:18.448Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/skhu-lecture-kimjye/webApps/-/config  
+ 
+[debug] [2020-05-06T01:17:19.692Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 May 2020 01:17:20 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
