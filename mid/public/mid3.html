@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+        div#app { padding: 30px; margin: 30px auto; max-width: 65px; height: 65px;
+            border: 1px solid #ccc; box-shadow: 3px 3px 3px #aaa; }
+        div#app > div { margin-top: 20px; } 
+        button { padding: 0.5em 2em; }
+        .yellow { background-color: #ffa; }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div> 
+            <button class=yellow type="button">{{num}}</button> 
+        </div>
+    </div>
+    <script type="text/javascript"> 
+       var app = new Vue({ 
+           el: '#app', 
+           data: { num : 0 },
+           created: function () {
+               this.increase();
+           },
+           methods: { 
+               increase() { setInterval(()=>this.num++, 1000)}
+            } 
+        })
+    </script>
+</body>
+</html>
