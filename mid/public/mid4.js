@@ -10,7 +10,6 @@ const array = [];
 for(let i=0; i<100; ++i){
     array.push(Math.floor(Math.random() * 100) + 1);
 }
-console.log(array)
 const result = array.reduce((acc, cur) => { if(cur%2==0) ++acc; return acc},0);
 
 console.log(result)
