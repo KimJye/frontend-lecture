@@ -7,19 +7,19 @@
 
 <body>
     <div id="app">
-        <input type="text" v-model="number" />
+        <input type="text" v-model="inputNum" />
         <br>
-        <table style="border-collapse: collapse; margin: auto;">
-            <td style="border: 1px solid black; padding: 5px;"></td>
+        <table style="border-collapse: collapse; margin-top: 20px;">
+            <tr v-for="i in size">
+                <td style="border: 1px solid black; padding: 5px;">{{inputNum}} x {{i}} = {{inputNum * i}}</td>
+            </tr>
+            
         </table>
     </div>
     <script type="text/javascript"> 
        var app = new Vue({ 
            el: '#app', 
-           data: { number : 2 },
-           methods: { 
-                calculation() { this.num++; } 
-            } 
+           data: { inputNum : 2, size : 9},
         })
     </script>
 </body>
